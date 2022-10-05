@@ -1,0 +1,17 @@
+#contact{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.bio, table.bio th, table.bio td {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+table.work-experience, table.work-experience th, table.work-experience td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
