@@ -11,7 +11,25 @@ table.bio, table.bio th, table.bio td {
 }
 
 table.work-experience, table.work-experience th, table.work-experience td {
-    border: 1px solid;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 10px 
 }
 
+body{
+    background-color: #c7f9cc;
+}
+
+hr{
+    border-color: #38a3a5;
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 5px;
+}
+
+h1{
+    color: #22577a;
+}
+
+h3{
+    color: #22577a;
+}
