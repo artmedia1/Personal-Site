@@ -1,0 +1,61 @@
+#contact{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+table.bio, table.bio th, table.bio td {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.Education td{
+    padding-right: 3em; 
+}
+
+table.work-experience, table.work-experience th{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    text-align: left;
+}
+
+table.work-experience td {
+    padding-right: 3em;
+}
+
+tr.spaceUnder>td {
+    padding-bottom: 1em;
+  }
+
+table.work-experience tbody {
+    padding-top: 3em;
+}
+    
+table.skills td{
+    border-collapse: separate;
+    padding-right: 3em;
+}
+body{
+    background-color: #c7f9cc;
+}
+
+hr{
+    border-color: #38a3a5;
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 5px;
+}
+
+h1{
+    color: #22577a;
+}
+
+h3{
+    color: #22577a;
+}
+
