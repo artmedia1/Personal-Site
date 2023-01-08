@@ -69,7 +69,7 @@ a{
 
 .bottom-cloud{
     position: absolute;
-    left: 250px;
+    left: 20%;
     bottom: 200px;
 }
 
@@ -189,11 +189,11 @@ a{
     right: 10%;
 } */
 
-.test{
+.nav-padding1{
     padding-right: 20%;
 }
 
-.test2{
+.nav-padding2{
     padding-left: 24%;
 }
 
