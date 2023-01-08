@@ -70,14 +70,12 @@ a{
 .bottom-cloud{
     position: absolute;
     left: 250px;
-    bottom: 300px;
+    bottom: 200px;
 }
 
 .name{
-    width: 200px;
-    position: absolute;
-    left: 200px;
-    top: 10px;
+    position: relative;
+    left:10%;
     float: left;
     font-size: larger;
     font-weight: bold;
