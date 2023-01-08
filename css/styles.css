@@ -58,7 +58,7 @@ a{
 
 .bottom-container{
     background-color: #66bfbf;
-    padding: 50px 0 20px;
+    padding: 20px 0 20px;
 }
 
 .top-cloud{
@@ -77,8 +77,10 @@ a{
     width: 200px;
     position: absolute;
     left: 200px;
-    top: 25px;
+    top: 10px;
     float: left;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .social-link{
@@ -100,7 +102,13 @@ a{
 
 .skill-row{
     width: 50%;
-    margin: 100px auto 150px auto;
+    margin: 100px auto 50px auto;
+    text-align: left;
+}
+
+.projects-row{
+    width: 50%;
+    margin: 50px auto 0px auto;
     text-align: left;
 }
 
@@ -178,3 +186,10 @@ a{
     font-size: 0.75rem;
     padding: 20px 0px;
   }
+
+  .navbar-nav {
+    margin-left: auto;
+    position: relative;
+    right: 200px;
+}
+
