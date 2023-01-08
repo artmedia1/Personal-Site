@@ -40,10 +40,10 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav-bar{
+/* .nav-bar{
     padding: 25px auto;
     height: 75px;
-}
+} */
 
 .top-container{
     background-color: #c7f9cc;
@@ -74,9 +74,7 @@ a{
 }
 
 .name{
-    position: relative;
-    left:10%;
-    float: left;
+    margin-left: 10%;
     font-size: larger;
     font-weight: bold;
 }
@@ -185,9 +183,26 @@ a{
     padding: 20px 0px;
   }
 
-  .navbar-nav {
+  /* .navbar-nav {
     margin-left: auto;
     position: relative;
-    right: 200px;
+    right: 10%;
+} */
+
+.test{
+    padding-right: 20%;
 }
 
+.test2{
+    padding-left: 24%;
+}
+
+.navbar-toggler{
+    position: relative;
+    right: 5%;
+}
+
+/* .nav-link{
+    position: relative;
+    text-align: center;
+} */
