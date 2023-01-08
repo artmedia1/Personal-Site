@@ -39,6 +39,12 @@ p{
 a{
     font-family: 'Montserrat', sans-serif;
 }
+
+.nav-bar{
+    padding: 25px auto;
+    height: 75px;
+}
+
 .top-container{
     background-color: #c7f9cc;
     position: relative;
@@ -66,6 +72,31 @@ a{
     left: 250px;
     bottom: 300px;
 }
+
+.name{
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 25px;
+    float: left;
+}
+
+.social-link{
+    margin: auto 20px;
+    text-decoration: none;
+    color: #11999E;
+    font-size: large;
+    vertical-align: middle;
+    position: relative;
+    left: 400px;
+    top: 25px;
+}
+
+.social-link:hover{
+    color: #EAF6F6;
+}
+
+
 
 .skill-row{
     width: 50%;
