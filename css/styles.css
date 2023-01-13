@@ -108,6 +108,10 @@ a{
     text-align: left;
 }
 
+.project-image{
+    width:100%;
+}
+
 .laptop-pic{
     border-radius: 100%;
     width: 15%;
