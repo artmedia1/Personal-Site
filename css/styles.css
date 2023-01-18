@@ -26,7 +26,7 @@ h3{
 }
 
 hr{
-    border: dotted #EAF6F6 6px;
+    border: dotted #818888 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -79,6 +79,9 @@ a{
     font-weight: bold;
 }
 
+.profile-pic{
+    border-radius: 100%;
+}
 .social-link{
     margin: auto 20px;
     text-decoration: none;
