@@ -1,107 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel = "stylesheet", href = "css/styles.css">
-    <link rel = "icon", href = "favicon.ico?v=2">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <!-- Add this line to include the Bootstrap JavaScript file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <title>Personal Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" , href="css/styles.css">
+  <link rel="icon" , href="favicon.ico?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap JavaScript file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/51d6c200ba.js" crossorigin="anonymous"></script>
+
+  <title>Personal Website</title>
 </head>
 
 <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand name">Randy Huynh</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class = "nav-padding1 ms-auto">
-          <ul class="navbar-nav nav-padding2">
-            <li class="nav-item">
-              <a class="nav-link" href="files/resume.pdf">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/artmedia1">Github</a>
-            </li>
-          </ul>
-        </div>
-        
-      </div>
-    </nav>
-    
-  
 
-    <div class = "top-container">
-        <img class = "top-cloud img-fluid", src = "images/cloud.png" alt = "cloud-img">
-        <h1 class = "greeting">I'm Randy.</h1>
-        <h2 class = "name-desc">a computer engineering student.</h2>
-        <img class = "bottom-cloud img-fluid", src = "images/cloud.png" alt = "cloud-img">
-        <img src = "images/mountain.png" class="img-fluid" alt="Responsive image">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand name">Randy Huynh</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="nav-padding1 ms-auto">
+        <ul class="navbar-nav nav-padding2">
+          <li class="nav-item">
+            <a class="nav-link" href="files/resume.pdf">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/artmedia1">Github</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+  <div class="top-container">
+    <img class="top-cloud img-fluid" , src="images/cloud.png" alt="cloud-img">
+    <h1 class="greeting">I'm Randy.</h1>
+    <h2 class="name-desc">a computer engineering student.</h2>
+    <img class="bottom-cloud img-fluid" , src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" class="img-fluid" alt="Responsive image">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-pic" src="images/profile-pic.jpg" alt="profile-pic">
+      <h2>Hello.</h2>
+      <p class="intro">I'm currently a computer engineering student at York University with an interest in Computer
+        Vision and Machine learning. I currently mainly work on Python and am currently making an effort to learn react.
+      </p>
     </div>
 
-    <div class="middle-container">
-        <div class="profile">
-          <img class = "profile-pic" src="images/profile-pic.jpg" alt="profile-pic">
-          <h2>Hello.</h2>
-          <p class = "intro">I'm currently a computer engineering student at York University with an interest in Computer Vision and Machine learning. I currently mainly work on Python and am currently making an effort to learn react. </p>
-        </div>
+    <hr>
 
-        <hr>
+    <div class="projects">
+      <h2>My Projects</h2>
 
-        <div class="projects">
-          <h2>My Projects</h2>
-
-          <div class="projects-row">
-            <h3>Movie Rental Service | Java</h3>
-            <ul>
-              <li>Developed a GUI based app using Java’s Swing Libraries</li>
-              <li>accessed database whenever the user registered a new account or ordered a movie</li>
-              <li>Checked and updated a database whenever the user registered a new account or ordered a movie</li>
-            </ul>
-          </div>
-
-          <div class="projects-row">
-            <h3>Keep Talking and Nobody Explodes | System Verilog</h3>
-            <ul>
-              <li>Developed a GUI based app using Java’s Swing Libraries</li>
-              <li>accessed database whenever the user registered a new account or ordered a movie</li>
-              <li>Checked and updated a database whenever the user registered a new account or ordered a movie</li>
-            </ul>
-          </div>
-          
-          <div class="projects-row">
-            <h3>tindog | HTML5, CSS, Bootstrap</h3>
-            <a href="https://artmedia1.github.io/TinDog/"><img class ="project-image" src="images/tindog.png"></a>
-          </div>
-        </div>
-
-        <hr>
-        
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>I'd Love To Connect With You.</h3>
-          <p class = "contact-msg">Let me get to know more about you.</p>
-          <div class="btn-div">
-            <a class="btn" href="mailto:Randy_Huynh@hotmail.com">CONTACT ME</a>
-          </div>
-        </div>
+      <div class="projects-row">
+        <h3>Movie Rental Service | Java</h3>
+        <ul>
+          <li>Developed a GUI based app using Java’s Swing Libraries</li>
+          <li>accessed database whenever the user registered a new account or ordered a movie</li>
+          <li>Checked and updated a database whenever the user registered a new account or ordered a movie</li>
+        </ul>
       </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://github.com/artmedia1">Github</a>
+
+      <div class="projects-row">
+        <h3>Keep Talking and Nobody Explodes | System Verilog</h3>
+        <ul>
+          <li>Developed a GUI based app using Java’s Swing Libraries</li>
+          <li>accessed database whenever the user registered a new account or ordered a movie</li>
+          <li>Checked and updated a database whenever the user registered a new account or ordered a movie</li>
+        </ul>
       </div>
+
+      <div class="projects-row">
+        <h3>tindog | HTML5, CSS, Bootstrap</h3>
+        <div class="image"> 
+          <img class="project-image" src="images/tindog.png" alt=""><a href="https://artmedia1.github.io/TinDog/"><i class="fa fa-search fa-3x"></i></a>
+        </div>
+
+    </div>
       
+      
+    </div>
+
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I'd Love To Connect With You.</h3>
+      <p class="contact-msg">Let me get to know more about you.</p>
+      <div class="btn-div">
+        <a class="btn" href="mailto:Randy_Huynh@hotmail.com">CONTACT ME</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://github.com/artmedia1">Github</a>
+  </div>
+
 </body>
 
 
