@@ -215,18 +215,6 @@ a{
     text-align: center;
 } */
 
-
-
-.containerm {
-    min-height: 100vh;
-    overflow: hidden;
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
 .image {
     overflow: hidden;
     height: 300px;
@@ -248,7 +236,7 @@ a{
     width: 1000px;
     height: 1000px;
     transform: translate(-140%, -50%);
-    background-color: blue;
+    background-color: grey;
     opacity: 0.8;
     border-radius: 50%;
     transition: .8s
